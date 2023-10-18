@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/vistaFotos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/imgGrande"
+        android:layout_width="411dp"
+        android:layout_height="770dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+</LinearLayout>
